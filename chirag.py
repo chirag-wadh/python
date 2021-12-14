@@ -1,5 +1,6 @@
-a=1
-while a<=10:
-    print (a,a**2)
-    a=a+1
-
+a=10
+while a<300:
+    print (a,end=",")
+    a=a+10
+    if a==300:
+        print(a)
