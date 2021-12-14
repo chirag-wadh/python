@@ -1,6 +1,6 @@
-a=10
-while a<300:
-    print (a,end=",")
-    a=a+10
-    if a==300:
-        print(a)
+n=2
+a=0
+while n<=20:
+    a=a+n
+    n=n+2
+print(a)
